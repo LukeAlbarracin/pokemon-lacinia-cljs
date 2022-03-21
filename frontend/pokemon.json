@@ -1,0 +1,33 @@
+{
+  "pokemon": [
+    {
+      "id": 1,
+      "name": "Hakamo-o",
+      "usage":"0.0256369"
+    },
+    {
+      "id": 2,
+      "name": "Cottonee",
+      "usage":"0.0114947"
+    },
+    {
+      "id": 3,
+      "name": "Lileep",
+      "usage":"0.0109761"
+    }    
+  ],
+  "moves": [
+    {
+      "id": 1,
+      "name": "aquatail"
+    },
+    {
+      "id": 2,
+      "name": "dualchop"
+    },
+    {
+      "id": 3,
+      "name": "closecombat"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{:objects
+ {:Pokemon
+  {:description "Pokemon"
+   :fields
+   {:id {:type (non-null Int)}
+    :name {:type (non-null String)}
+    :usage {:type (non-null :Float)}}} 
+ :Move
+  {:description "Moves"
+   :fields
+   {:id {:type (non-null Int)}
+    :name {:type (non-null String)}}}}
+
+ :queries
+ {:pokemon_by_id
+  {:type :Pokemon
+   :description "Select a Pokemon by its unique id, if it exists."
+   :args
+   {:id {:type (non-null Int)}}
+   :resolve :query/pokemon-by-id}
+ 
+ :move_by_id
+  {:type :Move
+   :description "Select a Move by its unique id, if it exists."
+   :args
+   {:id {:type (non-null Int)}}
+   :resolve :query/move-by-id}}
+}
