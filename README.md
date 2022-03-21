@@ -1,10 +1,4 @@
-# hello-pokemon-react-graphql
-
-## TODO
-- NA, NLA.  Review Brave, Clojure book
-- NA. scaffold frontend/ to call a graphql endpoint
-- NA. lift and move minimal hybrid-fall2021-kpod assets
-- NLA. lift and move lucinia tutorial for pokemon
+# Pokemon Lacinia CLJS
 
 ## References
 - https://www.braveclojure.com/
